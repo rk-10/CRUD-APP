@@ -4,7 +4,7 @@ var mongoose = require('mongoose');
 
 
 // connection with mlab
-var myUri = require('config').mongoUri;
+var myUri = ""; // TODO: Add your mongo db URI here
 mongoose.Promise = global.Promise;
 mongoose.connect(myUri)
     .then(() => console.log('connection successful'))
