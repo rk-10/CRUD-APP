@@ -18,10 +18,10 @@ This app shows what goes behind the scenes when a user registers and logs in usi
 
 # Getting started
 1. run `# npm install` (once you are inside the directory)
-2. Add your mongo db URI the **app.js** file.
+2. Add your mongo db URI in the **app.js** file.
 3. run `# node app.js`
 
 # We're now ready to test our API's using POSTMAN
 
-1. /register endpoint helps in registering.
-2. /login API helps logging in and returns a JWT(json web token) which helps in conducting other operations like read,create,update and delete data!!
+1. **/register** endpoint is for registering.
+2. Once Registered, **/login** API helps logging in and returns a JWT(json web token) which helps in conducting other operations like read,create,update and delete data!
