@@ -1,14 +1,14 @@
 # CRUD-APP 
 
 
-# Details
+# Description
 A simple node.js express app which lets a user create,read,update,delete(CRUD) employee data into/from mongo db(noSql database) with Authentication.
 
 This app shows what goes behind the scenes when a user registers and logs in using a jason web token(JWT) to gain access to the data base. After gaining access, the user can perfom 4 operations:
-    1. Create an entry for a new employee.
-    2. Read an employees data.
-    3. Update an emloyee data.
-    4. Delete an employee data.
+1. Create an entry for a new employee.
+2. Read an employees data.
+3. Update an emloyee data.
+4. Delete an employee data.
     
 # Requirements
 1. Nodejs
