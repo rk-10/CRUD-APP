@@ -25,3 +25,6 @@ This app shows what goes behind the scenes when a user registers and logs in usi
 
 1. **/register** endpoint is for registering.
 2. Once Registered, **/login** API helps logging in and returns a JWT(json web token) which helps in conducting other operations like read,create,update and delete data!
+
+# License
+MIT
